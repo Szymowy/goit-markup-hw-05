@@ -359,3 +359,8 @@ circle:focus {
 .cookie {
   padding: 12px;
 }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
