@@ -103,23 +103,16 @@ ul {
 .black-link:focus {
   color: var(--sky);
 }
+.active {
+  position: relative;
+}
 .active a::after {
   content: "";
   position: absolute;
-  width: 53px;
+  display: block;
+  width: 60px;
   height: 4px;
-  left: 400px;
-  top: 81px;
-  background: #2196f3;
-  border-radius: 2px;
-}
-.active-por a::after {
-  content: "";
-  position: absolute;
-  width: 58px;
-  height: 4px;
-  left: 505px;
-  top: 81px;
+  top: 49px;
   background: #2196f3;
   border-radius: 2px;
 }
